@@ -215,7 +215,7 @@ device = 'cuda' if cuda.is_available() else 'cpu'
 
 
 # Login to wandb to log the model run and all the parameters
-get_ipython().system('wandb login f2d7cd4fedd2822e534395005a236ac7b01e0036')
+get_ipython().system('wandb login XXX..)
 
 
 # ## 데이터셋 클래스 설정!!
